@@ -27,10 +27,9 @@ class MyTabbedApp extends StatelessWidget {
         ),
         body: TabBarView(
           children: [
-            for(int i = 1 ; i < 6 ; i++)
             Row(children: [
               Column(children: [
-                Text("classi$i")
+                Image.asset("images/")
               ],)
             ],)
           ],
